@@ -1,0 +1,25 @@
+{
+  "name": "rand",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Dean James <djames@brighttalk.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "0.5.x",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "0.12.x",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-requirejs": "~1.0.0",
+    "grunt-contrib-watch": "0.6.x",
+    "grunt-jscs": "^3.0.1",
+    "grunt-karma": "^2.0.0",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-nyan-reporter": "^0.2.4",
+    "karma-requirejs": "~0.2.1"
+  }
+}
