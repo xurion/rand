@@ -16,13 +16,13 @@ Rand = function () {
 
     return text
   }
-  //
-  // num: function (max, min) {
-  //
-  //   max = max || 999999
-  //   min = min || 1
-  //
-  //   return Math.round(Math.random() * (max - min) + min)
-  //
-  // }
+
+  this.num = function (max, min) {
+
+    max = max || 999999
+    min = min || 1
+
+    return Math.round(Math.random() * (max - min) + min)
+
+  }
 }
